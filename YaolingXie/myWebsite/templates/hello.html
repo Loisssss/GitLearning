@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load staticfiles %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/css_file/index.css">
+    <script type="text/javascript" src="/static/js_file/station.js"></script>
+    <script type="text/javascript" src="/static/js_file/emission.js"></script>
+    <script type="text/javascript" src="/static/js_file/monitor.js"></script>
+    <script type="text/javascript" src="/static/js_file/about.js"></script>
+
+</head>
+
+<body  id="body">
+	<div id="container">
+
+		<h1>City Management</h1>
+
+		<div id="bar">
+			<ul class="first">
+				<li><a id="station" href="#station" onclick="getLocation()">Station</a></li>
+				<li><a href="#emission" onClick="showEmission()">Emission </a></li>
+				<li><a href="#monitor" onClick="showMonitor()">Monitor</a></li>
+				<li><a href="#about" onclick="showAbout()">About</a></li>
+			</ul>
+		</div>
+
+
+        <div id="box">
+
+        </div>
+
+
+		<div id="footer">
+            <p> @tcd </p>
+		</div>
+	</div>
+
+</body>
+</html>
+
+
